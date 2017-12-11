@@ -4,14 +4,18 @@ h1 {
   text-align: center;
   padding: 100px;
   font-size: 75px;
+  font-family: Courier;
 }
 p {
   font-size: 18px;
+  font-weight:300;
+  font-family: Courier;
 }
 
 body {
   background-image: url(../img/bliss-wallpaper1.jpg) ;
   background-attachment: fixed;
+  background-size: cover;
 }
 
 
@@ -22,13 +26,9 @@ body {
 
 }
 
-
 .competence {
   padding: 20px;
-
 }
-
-
 
 .formations {
   padding: 20px;
@@ -42,7 +42,11 @@ body {
   padding: 20px;
 }
 
-.block1 {
+.projets{
+  padding: 20px;
+}
+
+.block {
   background-color: #ECE9D8;
   background-attachment: fixed;
   border-left: 5px #0055E6 solid;
@@ -53,156 +57,32 @@ body {
   margin-top: 5%;
   margin-bottom: 5%;
 }
-
-.block2 {
-  background-color: #ECE9D8;
-  background-attachment: fixed;
-  border-left: 5px #0055E6 solid;
-  border-right: 5px #0055E6 solid;
-  border-bottom: 5px #0055E6 solid;
-  border-radius: 10px;
-  box-shadow: 5px 5px 5px black;
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-
-.block3 {
-  background-color: #ECE9D8;
-  background-attachment: fixed;
-  border-left: 5px #0055E6 solid;
-  border-right: 5px #0055E6 solid;
-  border-bottom: 5px #0055E6 solid;
-  border-radius: 10px;
-  box-shadow: 5px 5px 5px black;
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-
-.block4 {
-  background-color: #ECE9D8;
-  background-attachment: fixed;
-  border-left: 5px #0055E6 solid;
-  border-right: 5px #0055E6 solid;
-  border-bottom: 5px #0055E6 solid;
-  border-radius: 10px;
-  box-shadow: 5px 5px 5px black;
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-
-.block5 {
-  background-color: #ECE9D8;
-  background-attachment: fixed;
-  border-left: 5px #0055E6 solid;
-  border-right: 5px #0055E6 solid;
-  border-bottom: 5px #0055E6 solid;
-  border-radius: 10px;
-  box-shadow: 5px 5px 5px black;
-  margin-top: 5%;
-  margin-bottom: 5%;
+.block img {
+  padding: px;
 }
 /* bouton pour fermer la fenetre */
-.croix1  {
-  float: right;
-  margin-top: 5px;
-}
-.croix2  {
-  float: right;
-  margin-top: 5px;
-}
-.croix3  {
-  float: right;
-  margin-top: 5px;
-}
-.croix4  {
-  float: right;
-  margin-top: 5px;
-}
-.croix5  {
+.croix {
   float: right;
   margin-top: 5px;
 }
 /* bouton pour agrandir la fenetre */
-.agrandir1 {
-  float: right;
-  margin-top: 5px;
-}
-.agrandir2 {
-  float: right;
-  margin-top: 5px;
-}
-.agrandir3 {
-  float: right;
-  margin-top: 5px;
-}
-.agrandir4 {
-  float: right;
-  margin-top: 5px;
-}
-.agrandir5 {
+.agrandir {
   float: right;
   margin-top: 5px;
 }
 /* bouton pour reduire la fenetre */
-.reduire1 {
-  float: right;
-  margin-top: 5px;
-}
-.reduire2 {
-  float: right;
-  margin-top: 5px;
-}
-.reduire3 {
-  float: right;
-  margin-top: 5px;
-}
-.reduire4 {
-  float: right;
-  margin-top: 5px;
-}
-.reduire5 {
+.reduire {
   float: right;
   margin-top: 5px;
 }
 
-.title1 {
+.title {
   background-image: url(https://image.noelshack.com/fichiers/2017/41/4/1507800793-fenetre.png);
   padding: 7px;
   color: white;
   font-weight: bold;
   font-family: georgia, arial, serif;
 }
-
-.title2 {
-  background-image: url(https://image.noelshack.com/fichiers/2017/41/4/1507800793-fenetre.png);
-  padding: 7px;
-  color: white;
-  font-weight: bold;
-  font-family: georgia, arial, serif;
-}
-.title3 {
-  background-image: url(https://image.noelshack.com/fichiers/2017/41/4/1507800793-fenetre.png);
-  padding: 7px;
-  color: white;
-  font-weight: bold;
-  font-family: georgia, arial, serif;
-}
-.title4 {
-  background-image: url(https://image.noelshack.com/fichiers/2017/41/4/1507800793-fenetre.png);
-  padding: 7px;
-  color: white;
-  font-weight: bold;
-  font-family: georgia, arial, serif;
-}
-.title5 {
-  background-image: url(https://image.noelshack.com/fichiers/2017/41/4/1507800793-fenetre.png);
-  padding: 7px;
-  color: white;
-  font-weight: bold;
-  font-family: georgia, arial, serif;
-}
-
-
 
 .bottomnav {
   background-image: url(https://image.noelshack.com/fichiers/2017/41/4/1507790768-barre2a.png);
